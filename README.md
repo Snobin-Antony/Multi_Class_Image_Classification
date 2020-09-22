@@ -5,8 +5,10 @@ Simple yet effective method for build a powerful image classifier using Keras. I
  
 
 To train the model : 
+
 `python3 train_network.py --dataset training_set --model trained_model --plot plot`
 
 To test the image : 
+
 `python3 predict.py --dataset training_set --model trained_model --image test_set/daisy1.jpg`
 
